@@ -1,2 +1,5 @@
-# sitecore.react.tutorial
-Repo with the code from the Sitecore.React Tutorials
+# Sitecore.React Tutorials
+
+This repo contains all the code for the tutorials at [https://www.sitecorenutsbolts.net/categories/Sitecore-React/](https://www.sitecorenutsbolts.net/categories/Sitecore-React/).
+
+Please follow those tutorials for setup.
