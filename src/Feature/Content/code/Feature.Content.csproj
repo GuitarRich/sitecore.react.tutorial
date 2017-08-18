@@ -154,7 +154,7 @@
     <Content Include="App_Config\Include\Feature\Feature.Content.config" />
     <Content Include="App_Config\Include\Feature\Feature.Content.Serialization.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
-    <Content Include="web.config" />
+    <None Include="web.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -163,15 +163,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\ReactConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Views\web.config" />
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Start\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Content\" />
