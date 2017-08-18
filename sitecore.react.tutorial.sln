@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{832BA009-A91C-4502-8341-88B02DA22FAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{4330AAA3-5944-48F7-B86F-BC196C6840A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{292808E2-118E-47B0-A32D-3F85CDBCB6AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{45DEDDFD-3C58-45A0-BD0B-0C9933D416EC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		nuget.config = nuget.config
+		package.json = package.json
+		publishsettings.targets = publishsettings.targets
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{3ECEC0E5-4BC9-44FB-B5DF-3183939DA824}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\applytransform.targets = scripts\applytransform.targets
+		scripts\habitat.js = scripts\habitat.js
+		scripts\unicorn.js = scripts\unicorn.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{88FCC799-BB1B-4CA0-A40A-06ADD5238850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Sitecore.React.Website", "src\Project\Website\code\Project.Sitecore.React.Website.csproj", "{6A8BCF43-4675-46C7-82D5-9D2F94D470BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "React", "React", "{6CD69594-092F-434D-9D70-7AB4477DF97F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundation.React", "src\Foundation\React\code\Foundation.React.csproj", "{EE5337C0-425C-44B8-83E2-087D7C0656A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{DBB4893E-4B0D-4DDF-B97E-A4A278C932DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Content", "src\Feature\Content\code\Feature.Content.csproj", "{BBFB7090-DF3B-42EE-844C-8F9A7C90901C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A8BCF43-4675-46C7-82D5-9D2F94D470BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A8BCF43-4675-46C7-82D5-9D2F94D470BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A8BCF43-4675-46C7-82D5-9D2F94D470BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A8BCF43-4675-46C7-82D5-9D2F94D470BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE5337C0-425C-44B8-83E2-087D7C0656A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE5337C0-425C-44B8-83E2-087D7C0656A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE5337C0-425C-44B8-83E2-087D7C0656A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE5337C0-425C-44B8-83E2-087D7C0656A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBFB7090-DF3B-42EE-844C-8F9A7C90901C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBFB7090-DF3B-42EE-844C-8F9A7C90901C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBFB7090-DF3B-42EE-844C-8F9A7C90901C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBFB7090-DF3B-42EE-844C-8F9A7C90901C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3ECEC0E5-4BC9-44FB-B5DF-3183939DA824} = {45DEDDFD-3C58-45A0-BD0B-0C9933D416EC}
+		{88FCC799-BB1B-4CA0-A40A-06ADD5238850} = {292808E2-118E-47B0-A32D-3F85CDBCB6AF}
+		{6A8BCF43-4675-46C7-82D5-9D2F94D470BF} = {88FCC799-BB1B-4CA0-A40A-06ADD5238850}
+		{6CD69594-092F-434D-9D70-7AB4477DF97F} = {4330AAA3-5944-48F7-B86F-BC196C6840A3}
+		{EE5337C0-425C-44B8-83E2-087D7C0656A2} = {6CD69594-092F-434D-9D70-7AB4477DF97F}
+		{DBB4893E-4B0D-4DDF-B97E-A4A278C932DE} = {832BA009-A91C-4502-8341-88B02DA22FAE}
+		{BBFB7090-DF3B-42EE-844C-8F9A7C90901C} = {DBB4893E-4B0D-4DDF-B97E-A4A278C932DE}
+	EndGlobalSection
+EndGlobal
