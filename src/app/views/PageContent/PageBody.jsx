@@ -1,10 +1,12 @@
 import React from "react";
 
-export default class PageBody extends React.Component {
+class PageBody extends React.Component {
     render() {
         return (
             <div dangerouslySetInnerHTML={{__html: this.props.data.Body }}>
             </div>
         );
     }
-}
+};
+
+export default PageBody;

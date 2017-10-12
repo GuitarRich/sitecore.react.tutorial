@@ -1,0 +1,21 @@
+﻿---
+ID: "aa7cb4c9-0be6-4029-875e-b03a6aa10f7f"
+Parent: "cdacd755-1bde-4794-a1c2-4b9b93cdb238"
+Template: "f31db7e6-605c-4ef3-84c8-4238961f5649"
+Path: /sitecore/layout/Renderings/Project/Website/MainLayout
+DB: master
+SharedFields:
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: MainLayout
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Project.Sitecore.React.Website.Controllers.ScaffoldingController, Project.Sitecore.React.Website
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170818T043904Z

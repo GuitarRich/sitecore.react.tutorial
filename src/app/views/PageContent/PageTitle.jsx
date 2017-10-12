@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class PageTitle extends React.Component {
+class PageTitle extends React.Component {
     render() {
         return (
             <header>
@@ -9,3 +9,5 @@ export default class PageTitle extends React.Component {
         );
     }
 };
+
+export default PageTitle;

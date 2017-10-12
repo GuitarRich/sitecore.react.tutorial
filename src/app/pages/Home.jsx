@@ -5,7 +5,7 @@ import PageBody from "../views/PageContent/PageBody"
 
 import Data from "../data/data";
 
-export default class Home extends React.Component {
+class Home extends React.Component {
   constructor(props) {
     super(props);
 
@@ -29,3 +29,5 @@ export default class Home extends React.Component {
     );
   }
 }
+
+exports.default = Home;
