@@ -1,5 +1,4 @@
 global.jQuery = require('jquery');
-require('bootstrap');
 require('jquery-ui');
 
 import React from "react";

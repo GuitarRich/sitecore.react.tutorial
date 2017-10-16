@@ -10,4 +10,4 @@ class MainLayout extends React.Component {
     }
 };
 
-exports.default = MainLayout;
+export default MainLayout;
